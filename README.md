@@ -128,10 +128,10 @@ apt-get install unrar
 ```
 
 ## License
-SparseConvNet is BSD licensed, as found in the LICENSE file.
+SparseConvNet is BSD licensed, as found in the LICENSE file. [Terms of use](https://opensource.facebook.com/legal/terms). [Privacy](https://opensource.facebook.com/legal/privacy)
 
 ## Links
-1. [ICDAR 2013 Chinese Handwriting Recognition Competition 2013](http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/Home.html) First place in task 3, with test error of 2.61%. Human performance on the test set was 4.81%. [Report](http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/ICDAR%202013%20CHR%20competition.pdf)
+1. [ICDAR 2013 Chinese Handwriting Recognition Competition 2013](https://web.archive.org/web/20160418143451/http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/Home.html) First place in task 3, with test error of 2.61%. Human performance on the test set was 4.81%. [Report](https://web.archive.org/web/20160910012723/http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/ICDAR%202013%20CHR%20competition.pdf)
 2. [Spatially-sparse convolutional neural networks, 2014](http://arxiv.org/abs/1409.6070) SparseConvNets for Chinese handwriting recognition
 3. [Fractional max-pooling, 2014](http://arxiv.org/abs/1412.6071) A SparseConvNet with fractional max-pooling achieves an error rate of 3.47% for CIFAR-10.
 4. [Sparse 3D convolutional neural networks, BMVC 2015](http://arxiv.org/abs/1505.02890) SparseConvNets for 3D object recognition and (2+1)D video action recognition.
@@ -140,8 +140,14 @@ SparseConvNet is BSD licensed, as found in the LICENSE file.
 7. [Submanifold Sparse Convolutional Networks, 2017](https://arxiv.org/abs/1706.01307) Introduces deep 'submanifold' SparseConvNets.
 8. [Workshop on Learning to See from 3D Data, 2017](https://shapenet.cs.stanford.edu/iccv17workshop/) First place in the [semantic segmentation](https://shapenet.cs.stanford.edu/iccv17/) competition. [Report](https://arxiv.org/pdf/1710.06104)
 9. [3D Semantic Segmentation with Submanifold Sparse Convolutional Networks, 2017](https://arxiv.org/abs/1711.10275) Semantic segmentation for the ShapeNet Core55 and NYU-DepthV2 datasets, CVPR 2018
-10. [ScanNet 3D semantic label benchmark 2018](http://kaldir.vc.in.tum.de/scannet_benchmark/semantic_label_3d) 0.726 average IOU.
-11. [https://github.com/StanfordVL/MinkowskiEngine] MinkowskiEngine is an alternative implementation of SparseConvNet.
+10. [Unsupervised learning with sparse space-and-time autoencoders](https://arxiv.org/abs/1811.10355) (3+1)D space-time autoencoders
+11. [ScanNet 3D semantic label benchmark 2018](http://kaldir.vc.in.tum.de/scannet_benchmark/semantic_label_3d) 0.726 average IOU.
+12. [MinkowskiEngine](https://github.com/StanfordVL/MinkowskiEngine) is an alternative implementation of SparseConvNet; [0.736 average IOU for ScanNet]( https://github.com/chrischoy/SpatioTemporalSegmentation).
+13. [SpConv: PyTorch Spatially Sparse Convolution Library](https://github.com/traveller59/spconv) is an alternative implementation of SparseConvNet.
+14. [Live Semantic 3D Perception for Immersive Augmented Reality](https://ieeexplore.ieee.org/document/8998140) describes a way to optimize memory access for SparseConvNet.
+15. [OccuSeg](https://arxiv.org/abs/2003.06537) real-time object detection using SparseConvNets.
+16. [TorchSparse](https://github.com/mit-han-lab/torchsparse) implements 3D submanifold convolutions.
+17. [TensorFlow 3D](https://github.com/google-research/google-research/tree/master/tf3d) implements submanifold convolutions.
 
 ## Citations
 
